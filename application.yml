@@ -21,7 +21,7 @@ eureka:
   instance:
     hostname: localhost      
       
- file:
+file:
   upload:
     location: C:\fitness       
     
