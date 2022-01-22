@@ -21,9 +21,16 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    hostname: localhost      
+    hostname: localhost
+    
+http:
+  read:
+    timeout: 5000
+  connection:
+    timeout: 5000
       
 file:
   upload:
-    location: C:\fitness       
+    location: C:\fitness      
+    
     
