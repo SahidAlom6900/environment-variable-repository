@@ -64,7 +64,6 @@ resilience4j:
              - java.net.UnknownHostException
              - org.springframework.web.client.HttpClientErrorException$NotFound
              - java.net.ConnectException
-             - io.netty.channel.AbstractChannel$AnnotatedConnectException
 
           ignoreExceptions:
              - java.lang.IllegalStateException   
