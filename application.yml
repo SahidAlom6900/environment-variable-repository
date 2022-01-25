@@ -44,7 +44,7 @@ management:
 
 resilience4j:
   circuitbreaker:
-#    circuitBreakerAspectOrder : 1
+    circuitBreakerAspectOrder : 1
     configs:
         default:
           register-health-indicator: true
@@ -70,11 +70,11 @@ resilience4j:
 
                      
   timelimiter:
-#     timeLimiterAspectOrder : 2
+     timeLimiterAspectOrder : 2
      configs:
         default:
            cancel-running-future: true
-           timeout-duration: 5000
+           timeout-duration: 5
          
                 
      instances:
