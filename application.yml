@@ -62,8 +62,6 @@ resilience4j:
              - java.io.IOException
              - java.lang.Exception
              - java.net.UnknownHostException
-             - org.springframework.web.reactive.function.client.WebClientResponseException
-             - org.springframework.web.reactive.function.client.WebClientResponseException$NotFound
              - org.springframework.web.client.HttpClientErrorException$NotFound
              - java.net.ConnectException
              - io.netty.channel.AbstractChannel$AnnotatedConnectException
