@@ -54,7 +54,7 @@ resilience4j:
           minimum-number-of-calls: 5
           permitted-number-of-calls-in-half-open-state: 3
           sliding-window-size: 10
-          wait-duration-in-open-state: 5s
+          wait-duration-in-open-state: 5000
           sliding-window-type: count-based
           record-exceptions:
              - java.lang.IllegalArgumentException
@@ -74,7 +74,7 @@ resilience4j:
      configs:
         default:
            cancel-running-future: true
-           timeout-duration: 5
+           timeout-duration: 5000
          
                 
      instances:
